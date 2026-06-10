@@ -119,4 +119,66 @@ Generate embeddings using OpenAI models.
 ```bash
 python EmbeddedModels/openai_query.py
 ```
+## 🧠 Hugging Face Embeddings
 
+Generate vector embeddings using Hugging Face models.
+
+```bash
+python EmbeddedModels/hf_query.py
+```
+
+---
+
+## 📄 Document Similarity
+
+Compare documents using vector embeddings and cosine similarity.
+
+```bash
+python EmbeddedModels/document_similarity.py
+```
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|----------|
+| LangChain | LLM Framework |
+| Hugging Face | Models & Inference |
+| Transformers | Model Loading |
+| OpenAI API | Embeddings |
+| Python | Development |
+| Scikit-Learn | Similarity Computation |
+| python-dotenv | Environment Variables |
+
+---
+
+## 📈 Future Enhancements
+
+- Retrieval Augmented Generation (RAG)
+- FAISS Vector Database
+- ChromaDB Integration
+- LangGraph Agents
+- PDF Question Answering
+- Multi-Model Comparison
+- Conversational Memory
+
+---
+
+## 👨‍💻 Author
+
+**Yashashvi Srivastava**
+
+AI & Machine Learning Enthusiast | Exploring LLMs, LangChain, RAG, and Generative AI
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
