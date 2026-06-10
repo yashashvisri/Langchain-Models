@@ -36,3 +36,40 @@ Langchain-Models/
 ```
 
 ---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/your-username/langchain-models.git
+cd langchain-models
+```
+
+### 2️⃣ Create Virtual Environment
+
+```bash
+python -m venv myvenv
+```
+
+### 3️⃣ Activate Virtual Environment
+
+#### Windows
+
+```bash
+myvenv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+source myvenv/bin/activate
+```
+
+### 4️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
