@@ -94,3 +94,29 @@ python ChatModels/hf_local.py
 Example:
 
 ---
+
+```text
+What is the capital of India?
+→ New Delhi
+```
+
+---
+
+## 🌐 Hugging Face Endpoint
+
+Use Hugging Face hosted models through the Inference API.
+
+```bash
+python ChatModels/hf_api.py
+```
+
+---
+
+## 🔍 OpenAI Embeddings
+
+Generate embeddings using OpenAI models.
+
+```bash
+python EmbeddedModels/openai_query.py
+```
+
