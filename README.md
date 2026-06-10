@@ -72,4 +72,25 @@ source myvenv/bin/activate
 pip install -r requirements.txt
 ```
 
+## 🔑 Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
+OPENAI_API_KEY=your_openai_api_key
+```
+
+---
+
+## 🤖 Local LLM using TinyLlama
+
+Run TinyLlama locally through LangChain and Hugging Face Transformers.
+
+```bash
+python ChatModels/hf_local.py
+```
+
+Example:
+
 ---
