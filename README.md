@@ -125,7 +125,6 @@ python EmbeddedModels/document_similarity.py
 |------------|----------|
 | LangChain | LLM Framework |
 | Hugging Face | Models & Inference |
-| Transformers | Model Loading |
 | OpenAI API | Embeddings |
 | Python | Development |
 | Scikit-Learn | Similarity Computation |
@@ -136,9 +135,6 @@ python EmbeddedModels/document_similarity.py
 ## 📈 Future Enhancements
 
 - Retrieval Augmented Generation (RAG)
-- FAISS Vector Database
-- ChromaDB Integration
-- LangGraph Agents
 - PDF Question Answering
 - Multi-Model Comparison
 - Conversational Memory
