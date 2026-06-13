@@ -7,33 +7,13 @@ A hands-on project exploring **LangChain**, **Hugging Face Models**, and **OpenA
 ## 📌 Features
 
 - 🤖 Local LLM Inference using TinyLlama
-- 🌐 Hugging Face Inference API Integration
 - 🔍 OpenAI Embeddings
 - 📄 Document Similarity Search
 - 💬 LangChain Chat Models
-- 🔐 Environment Variable Management
 - 🧠 Semantic Search & Embeddings
 
 ---
 
-## 📂 Project Structure
-
-```bash
-Langchain-Models/
-│
-├── ChatModels/
-│   ├── hf_api.py
-│   └── hf_local.py
-│
-├── EmbeddedModels/
-│   ├── document_similarity.py
-│   ├── hf_query.py
-│   └── openai_query.py
-│
-├── .env
-├── requirements.txt
-└── README.md
-```
 
 ---
 
@@ -145,7 +125,6 @@ python EmbeddedModels/document_similarity.py
 |------------|----------|
 | LangChain | LLM Framework |
 | Hugging Face | Models & Inference |
-| Transformers | Model Loading |
 | OpenAI API | Embeddings |
 | Python | Development |
 | Scikit-Learn | Similarity Computation |
@@ -156,9 +135,6 @@ python EmbeddedModels/document_similarity.py
 ## 📈 Future Enhancements
 
 - Retrieval Augmented Generation (RAG)
-- FAISS Vector Database
-- ChromaDB Integration
-- LangGraph Agents
 - PDF Question Answering
 - Multi-Model Comparison
 - Conversational Memory
